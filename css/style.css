@@ -299,6 +299,25 @@ body{
   background-attachment: fixed;
 }
 }
+/*VIDEO CSS*/
+.videomuseo{
+  display: flex;
+  margin: 50px auto 80px;
+  justify-content: center;
+}
+.titulo h1{
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-weight: 400;
+  color: white;
+  animation: textanimation 2s ease;
+}
+@media screen and (max-width:675px)and (min-width:320px){
+  .videomuseo{
+    width:50%;
+    height: 50%;
+  }
+}
 
 /*FORM CSS*/
 .container{
